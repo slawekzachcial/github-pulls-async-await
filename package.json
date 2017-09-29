@@ -1,0 +1,21 @@
+{
+  "name": "github-pulls-async-await",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run pretest && node index.js",
+    "pretest": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "highland": "^2.11.1",
+    "request": "^2.82.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
